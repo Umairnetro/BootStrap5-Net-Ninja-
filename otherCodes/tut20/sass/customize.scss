@@ -1,0 +1,9 @@
+// Custom Variables
+$primary: rgb(25, 38, 46);
+$secondary: #a3ffc2;
+
+@import '../node_modules/bootstrap/scss/_functions';
+@import '../node_modules/bootstrap/scss/_variables';
+
+// Import Bootstrap
+@import '../node_modules/bootstrap/scss/bootstrap.scss';

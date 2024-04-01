@@ -1,0 +1,17 @@
+// Custom Variables
+$primary: purple;
+$light: rgb(244 233 255);
+
+@import "../node_modules/bootstrap/scss/_functions";
+@import "../node_modules/bootstrap/scss/_variables";
+
+// import the functions and variables
+$custom-theme-colors: (
+    "middark": #161a30,
+    "midlight": rgb(198, 205, 218)
+);
+
+$theme-colors: map-merge($custom-theme-colors, $theme-colors);
+
+// Import Bootstrap
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
